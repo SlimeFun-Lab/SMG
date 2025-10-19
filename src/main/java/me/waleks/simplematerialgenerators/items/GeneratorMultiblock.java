@@ -19,7 +19,7 @@ public class GeneratorMultiblock extends SimpleSlimefunItem<ItemUseHandler> impl
         super(itemGroup, item, RecipeType.MULTIBLOCK, new ItemStack[] {
                 null, null, null,
                 null, new ItemStack(Material.CHEST), null,
-                null, new CustomItemStack(Material.BEDROCK, "Any SMG generator"), null
+                null, CustomItemStack.create(Material.BEDROCK, "Any SMG generator"), null
         });
     }
 
